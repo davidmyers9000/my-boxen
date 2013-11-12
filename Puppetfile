@@ -34,8 +34,7 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "sublime_text_2", "2.0.2"
-
+github "sublime_text_2"
 github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
