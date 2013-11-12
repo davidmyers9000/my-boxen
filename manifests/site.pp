@@ -75,6 +75,11 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # Set the global default ruby (auto-installs it if it can)
+  class { 'ruby::global':
+    version => '2.0.0'
+  }
+
   # common, useful packages
   package {
     [
@@ -97,4 +102,5 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
 }
