@@ -90,6 +90,8 @@ node default {
     source => 'sergeche/emmet-sublime'
   }
 
+  # install zsh
+  include zsh
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
