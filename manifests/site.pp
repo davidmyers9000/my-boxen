@@ -95,8 +95,11 @@ node default {
     source => 'sergeche/emmet-sublime'
   }
 
-  # install zsh
+  # Install zsh
   include zsh
+
+  # Install ImageMagick
+  include imagemagick
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

@@ -39,6 +39,11 @@ GITHUBTARBALL
     hub (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-imagemagick
+  specs:
+    imagemagick (1.2.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -117,6 +122,7 @@ DEPENDENCIES
   go (= 1.0.0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
+  imagemagick (>= 0)
   inifile (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)

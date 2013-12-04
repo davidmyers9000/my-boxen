@@ -36,6 +36,7 @@ github "boxen", "3.3.4"
 
 github "zsh"
 github "sublime_text_2"
+github "imagemagick"
 github "dnsmasq",    "1.0.0"
 github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
